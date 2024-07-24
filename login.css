@@ -1,0 +1,62 @@
+body {
+    color: rgb(0, 0, 0);
+    background-color:#a4b0be
+}
+
+.right-content {
+    border-top-left-radius: 40px;
+    border-bottom-left-radius: 40px;
+    background-color: rgb(255, 255, 255);
+}
+
+#root {
+    height: 100vh !important;
+}
+
+.left-content .row {
+    margin-top: 100px;
+}
+
+.img-rounded {
+    border-radius: 50%;
+}
+
+.btn-rounded {
+    border-radius: 11px;
+}
+
+.welcome {
+    margin-left: 50px;
+}
+
+.welcome h1 {
+    margin-top: 30px;
+    font-size: 50px;
+}
+
+.welcome p {
+    margin-left: 30px;
+    font-size: 20px;
+}
+
+.content {
+    margin-top: 50px;
+}
+
+.img-center {
+    margin-top: 90px;
+    margin-left: -180px;
+}
+
+.img-center img {
+    border-radius: 20px;
+}
+
+.form-center {
+    margin-top: 100px;
+    margin-left: 100px;
+}
+
+.form-center .mb-3 {
+    margin-left: 30px !important;
+}

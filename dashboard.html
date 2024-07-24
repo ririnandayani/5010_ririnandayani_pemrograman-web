@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Title of the dashboard page -->
+    <title>Dashboard</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS for styling and layout -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Bootstrap JavaScript bundle -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Font Awesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+
+    <!-- Custom CSS for additional styling -->
+    <link rel="stylesheet" href="dashboard.css">
+</head>
+
+<body>
+    <div class="container-fluid">
+        <div class="row" id="root">
+
+            <!-- Sidebar -->
+            <div class="col-md-2 py-3">
+                <div class="row mb-4">
+                    <div class="col-md-4 text-end">
+                        <!-- EduDash logo -->
+                        <img src="edu.png" class="img-fluid w-100">
+                    </div>
+                    <div class="col-md-8 text-white align-self-center">
+                        <!-- EduDash title -->
+                        <h6 class="mb-0">EduDash</h6>
+                    </div>
+                </div>
+                <div class="text-center mb-4">
+                    <!-- Profile picture and name -->
+                    <img src="icon.png" alt="Profile" class="rounded-circle mb-2" style="max-width: 100px;">
+                    <h6 class="text-white mb-0">Ririn Andayani</h6>
+                </div>
+                <ul class="nav flex-column mt-custom-1">
+                    <!-- Navigation links -->
+                    <li class="nav-item"><a class="nav-link" href="./dashboard.html"><i class="fas fa-home me-2"></i>Dashboard</a></li>
+                    <li class="nav-item"><a class="nav-link active" href="./rekapnilai.html"><i class="fas fa-chart-bar me-2"></i>Rekap
+                            Nilai</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#"><i class="fas fa-cog me-2"></i>Setting</a></li>
+                </ul>
+            </div>
+
+            <!-- Main content area -->
+            <div class="col-md-10 right-content">
+                <div class="text-end mt-4 me-4">
+                    <!-- Top navigation buttons -->
+                    <button class="btn btn-rounded btn-secondary btn-sm me-2">23.01.5010</button>
+                    <a class="btn btn-rounded btn-secondary btn-sm"><i class="fas fa-search"></i></a>
+                    <a class="btn btn-rounded btn-secondary btn-sm"><i class="fas fa-bell"></i></a>
+                </div>
+                <div class="ms-4 mt-4">
+                    <!-- Main page title -->
+                    <h4>Dashboard</h4>
+                </div>
+                <div class="row ms-2 me-2">
+
+                    <!-- Status card -->
+                    <div class="col-md-6 mb-4">
+                        <div class="card">
+                            <div class="card-header bg-light">Status</div>
+                            <div class="card-body text-center py-2">
+                                <span class="badge bg-success"><i class="fas fa-check me-1"></i> aktif </span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Attendance card -->
+                    <div class="col-md-6 mb-4">
+                        <div class="card">
+                            <div class="card-header bg-light">Jumlah Kehadiran</div>
+                            <div class="card-body text-center py-2">
+                                <h5 class="mb-0">12</h5>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Teaching schedule -->
+                    <div class="col-12 mt-4">
+                        <div class="mt-custom mb-3">
+                            <h5>Jadwal Mengajar</h5>
+                        </div>
+                        <div class="table-responsive">
+                            <table class="table table-striped">
+                                <thead class="table-dark">
+                                    <tr class="text-center">
+                                        <th>No</th>
+                                        <th>Matakuliah</th>
+                                        <th>Prodi</th>
+                                        <th>Kelas</th>
+                                        <th>Semester</th>
+                                        <th>Waktu</th>
+                                        <th>Ruang</th>
+                                        <th>Keterangan</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td class="text-center">1.</td>
+                                        <td>Pemrograman Web</td>
+                                        <td>D3 - Teknik Informatika</td>
+                                        <td class="text-center">01</td>
+                                        <td class="text-center">2</td>
+                                        <td>Senin, 08.40 - 10.30</td>
+                                        <td class="text-center">05.02.04</td>
+                                        <td>Offline</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="text-center">2.</td>
+                                        <td>Aplikasi SIG Mobile</td>
+                                        <td>S1 - Geografi</td>
+                                        <td class="text-center">01</td>
+                                        <td class="text-center">4</td>
+                                        <td>Selasa, 10.40 - 12.20</td>
+                                        <td class="text-center">05.02.04</td>
+                                        <td>Offline</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="text-center">3.</td>
+                                        <td>E - Commerce</td>
+                                        <td>S1 - Akuntansi</td>
+                                        <td class="text-center">01</td>
+                                        <td class="text-center">2</td>
+                                        <td>Rabu, 13.20 - 15.00</td>
+                                        <td class="text-center">05.02.04</td>
+                                        <td>Offline</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="text-center">4.</td>
+                                        <td>E - Commerce</td>
+                                        <td>S1 - Hubungan Internasional</td>
+                                        <td class="text-center">01</td>
+                                        <td class="text-center">6</td>
+                                        <td>Jumat, 07.00 - 08.30</td>
+                                        <td class="text-center">05.02.04</td>
+                                        <td>Offline</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
